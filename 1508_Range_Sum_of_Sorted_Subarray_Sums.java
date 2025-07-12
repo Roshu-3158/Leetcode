@@ -6,8 +6,7 @@ class Solution {
             long sum = 0;
             for(int j=i; j<n; j++){
                 sum += nums[j];
-                arr[k++] = sum;
-            }
+                arr[k++] = sum;}
         }
         Arrays.sort(arr);
         long MOD = 1_000_000_007;
